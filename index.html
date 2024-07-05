@@ -1,23 +1,22 @@
 ---
-layout: splash
-title: "Welcome to My Site"
-description: "This is a splash page template."
-header:
-  overlay_image: https://via.placeholder.com/1200x800
-  overlay_filter: rgba(0, 0, 0, 0.5) # adjust the color and opacity
-  caption: "Welcome to the Example Site"
-  actions:
-    - label: "Learn More"
-      url: "/about/"
-      class: "button" # optional
+layout: default
 ---
 
-## Welcome to My Site
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
 
-This is the splash page layout example. Below is some example content you can customize.
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
 
-- **Point 1:** This is a placeholder point.
-- **Point 2:** This is another placeholder point.
-- **Point 3:** Yet another placeholder point.
-
-Feel free to add more content here as needed.
+    <section class="page__content" itemprop="text">
+      {{ content }}
+    </section>
+  </article>
+</div>
