@@ -19,7 +19,7 @@ feature_row:
     alt: "placeholder image 1"
     title: "Placeholder 1"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+  - image_path: "https://www.upcast-project.eu/wp-content/uploads/2023/02/PILOT-2.png"
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "placeholder image 2"
     title: "Placeholder 2"
@@ -27,7 +27,7 @@ feature_row:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: "https://images.unsplash.com/photo-1494173853739-c21f58b16055"
+  - image_path: "https://www.upcast-project.eu/wp-content/uploads/2023/02/PILOT-3.png"
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 feature_row2:
