@@ -30,30 +30,10 @@ feature_row:
   - image_path: "https://www.upcast-project.eu/wp-content/uploads/2023/02/PILOT-3.png"
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-feature_row2:
-  - image_path: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row3:
-  - image_path: "https://images.unsplash.com/photo-1487014679447-9f8336841d58"
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row4:
-  - image_path: "https://images.unsplash.com/photo-1497493292307-31c376b6e479"
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+  - image_path: "https://www.upcast-project.eu/wp-content/uploads/2023/02/PILOT-3.png"
+    title: "Placeholder 4"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+
 ---
 
 {% include feature_row id="intro" type="center" %}
