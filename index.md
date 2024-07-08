@@ -42,7 +42,7 @@ feature_row:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: "https://www.upcast-project.eu/wp-content/uploads/2023/02/PILOT-5.png"
+  - image_path: "https://www.upcast-project.eu/wp-content/uploads/2023/11/PILOT-5.png"
     title: "Placeholder 5"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
     url: "#test-link"
