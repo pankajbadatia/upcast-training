@@ -19,6 +19,9 @@ feature_row:
     alt: "placeholder image 1"
     title: "Placeholder 1"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: "https://www.upcast-project.eu/wp-content/uploads/2023/02/PILOT-2.png"
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "placeholder image 2"
@@ -30,10 +33,21 @@ feature_row:
   - image_path: "https://www.upcast-project.eu/wp-content/uploads/2023/02/PILOT-3.png"
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: "https://www.upcast-project.eu/wp-content/uploads/2023/02/PILOT-3.png"
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: "https://www.upcast-project.eu/wp-content/uploads/2023/02/PILOT-4.png"
     title: "Placeholder 4"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: "https://www.upcast-project.eu/wp-content/uploads/2023/02/PILOT-5.png"
+    title: "Placeholder 5"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
