@@ -47,8 +47,20 @@ feature_row:
 ---
 
 <div class="full-width-section">
-  Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, <em>proin faucibus</em> voluptate felis id sollicitudin. Left aligned and full width.
+  <h2>UPCAST Project Summary</h2>
+  <p>The UPCAST Project aims to provide a comprehensive suite of data market plugins designed to streamline data sharing and processing agreements among businesses, public administrations, and citizens. These plugins will facilitate actors in the common European data spaces to effectively design and implement data exchange and trading operations with the following key features:</p>
+  <ul>
+    <li><strong>Automatic negotiation of agreement terms</strong></li>
+    <li><strong>Dynamic fair pricing</strong></li>
+    <li><strong>Enhanced data-asset discovery</strong></li>
+    <li><strong>Adherence to privacy, commercial, and administrative confidentiality requirements</strong></li>
+    <li><strong>Minimized environmental impact</strong></li>
+    <li><strong>Compliance with relevant legislation</strong></li>
+    <li><strong>Conformity with ethical and responsibility guidelines</strong></li>
+  </ul>
+  <p>The UPCAST Project will underpin the deployment of Common European data spaces by leveraging advanced research in data management, privacy, monetization, exchange, and automated negotiation. It prioritizes environmental efficiency and ensures compliance with EU and national regulations, AI directives, and ethical standards.</p>
 </div>
+
 
 {% include feature_row %}
 
