@@ -7,13 +7,9 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.1"
   overlay_image: "assets/images/UPCAST_LOGO/LinkedIn Header banner 1584x396.png"
-  actions:
-    - label: "Download"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: "Five real-world pilots across Europe will operationalise a set of working platform plugins for data sharing, monetisation and trading, deployable across a variety of different data marketplaces and platforms, ensuring digital autonomy of data providers, brokers, users and data subjects, and enabling interoperability within European data spaces. UPCAST Project aims at engaging SMEs, administrations and citizens by providing a transferability framework, best practices and training to endow users in order to deploy the new technologies and maximise impact of the project."
 feature_row:
   - image_path: "https://www.upcast-project.eu/wp-content/uploads/2023/04/PILOT-1-1.png"
     alt: "placeholder image 1"
