@@ -46,7 +46,9 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
-{% include feature_row id="intro" type="left" %}
+<div class="full-width-section">
+  Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, <em>proin faucibus</em> voluptate felis id sollicitudin. Left aligned and full width.
+</div>
 
 {% include feature_row %}
 
